@@ -22,17 +22,13 @@ $DBcon->close();
 </head>
 
 <body>
-
-
-<form>
-<header>
-<h3><b>Admin</b></h3>	
-<h2><center>User Details</center></h2>
-</header>
-<center>
-<input type="button"  accesskey="1" value="Add User" onclick="window.location.href='###'" />
-
-<input type="button" accesskey="2" value="User Details" onclick="window.location.href='user_details.php'" />
+   <form>
+   <header>
+      <h3><b>Admin</b></h3>	
+      <h2><center>User Details</center></h2>
+   </header>
+         <input type="button"  accesskey="1" value="Add User" onclick="window.location.href='###'" />
+         <input type="button" accesskey="2" value="User Details" onclick="window.location.href='user_details.php'" />
 <input type="button" accesskey="3" value="Update User" onclick="window.location.href='update_user_find.php'" />
 <input type="button" accesskey="4" value="Delete User" onclick="window.location.href='delete_user_find.php'" />
 <input type="button" accesskey="5" value="Reset passwords" onclick="window.location.href='reset_password.php'" />
